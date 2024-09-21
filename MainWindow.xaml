@@ -1,0 +1,19 @@
+﻿<Window x:Class="CustomDB_ValidationRule.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomDB_ValidationRule"
+        mc:Ignorable="d"
+        Title="Validation rule example" Height="450" Width="800">
+	<Grid>
+		<Menu VerticalAlignment="Top" >
+			<MenuItem Header="File">
+				<MenuItem Header="Exit" Click="miExit_Click" />
+			</MenuItem>
+			<MenuItem Header="Record data">
+				<MenuItem Header="New ..." Click="miNew_Click"/>
+			</MenuItem>
+		</Menu>
+	</Grid>
+</Window>
